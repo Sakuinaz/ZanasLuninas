@@ -4,6 +4,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #333;
+    
 }
 
 h2 {
@@ -147,3 +148,46 @@ div {
 .item {
     flex: 1 1 300px; 
 }
+
+/* root css tamsus ir sviesus rezimas */
+:root {
+    --background-color: white;
+    --text-color: black;
+    --button-bg-color: #f0f0f0;
+    --button-text-color: black;
+  }
+  
+  .dark-theme {
+    --background-color: black;
+    --text-color: white;
+    --button-bg-color: #333;
+    --button-text-color: white;
+
+  }
+  
+  /* globalus */
+  body, section, h1, h2, h3, p {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* mygtukas */
+  #toggle-theme {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #toggle-theme:hover {
+    opacity: 0.8;
+  }
+  
+  
