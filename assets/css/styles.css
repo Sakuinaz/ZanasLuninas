@@ -367,10 +367,25 @@ div {
     font-weight: 700;
   }
   
-  /* SVG objetai */
+  /* SVG objektai */
 
   .svg-container {
     text-align: center; /* Center the SVG */
     margin-top: 20px;
   }
   
+
+  /* Laikrodžio stilius */
+.clock-container {
+  text-align: center;
+  background: #5d0000;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Laikrodžio tekstas */
+#clock {
+  font-size: 3rem;
+  color: var(--text-color);
+}
