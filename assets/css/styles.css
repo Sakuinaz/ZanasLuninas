@@ -1,10 +1,10 @@
 /* Headings */
 h1 {
-    font-family: 'Arial', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-    
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  
 }
 
 h2 {
@@ -21,6 +21,13 @@ h3 {
     color: #666;
 }
 
+h4 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  
+}
 /* Paragrafai */
 p {
     font-family: 'Verdana', sans-serif;
@@ -163,7 +170,7 @@ div {
   }
   
   /* globalus */
-  body, section, h1, h2, h3, p, footer {
+  body, section, h4, h2, h3, p, h1, footer {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s ease, color 0.3s ease;

@@ -86,7 +86,7 @@
 
       <div class="container" data-aos-delay="100">
         <h2>Žanas Luninas</h2>
-        <h1>Aš esu <span class="typed" data-typed-items="Developer'is, Gamer'is, Gymrat'as, Racist'as">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></h1>
+        <h4>Aš esu <span class="typed" data-typed-items="Developer'is, Gamer'is, Gymrat'as, Racist'as">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></h4>
       </div>
 
     </section><!-- /Hero Section -->
@@ -95,7 +95,7 @@
     <section id="apie" class="apie">
       <div class="container">
           <div class="section-title">
-              <h1>Apie mane</h1>
+              <h4>Apie mane</h4>
               <p>Trumpai apie mane</p>  
           </div>
           <div class="row">
@@ -126,13 +126,13 @@
   <section id="resume" class="resume">
     <div class="container">
         <div class="section-title">
-            <h1>Aprašymas</h1>
+            <h4>Aprašymas</h4>
             <p>Mano profesinė patirtis ir įgūdžiai</p>
         </div>
         <div class="row">
             <!-- issilavinimas Section -->
             <div class="col-lg-6">
-                <h1 class="resume-title">Išsilavinimas</h1>
+                <h4 class="resume-title">Išsilavinimas</h4>
                 <div class="resume-item">
                     <h2>Elektronikos inžinerijos bakalauro laipsnis</h2>
                     <p>2023 - 2027</p>
@@ -149,7 +149,7 @@
 
             <!-- darbo patirtis -->
             <div class="col-lg-6">
-                <h1 class="resume-title">Darbo Patirtis</h1>
+                <h4 class="resume-title">Darbo Patirtis</h4>
                 <div class="resume-item">
                     <h2>Front-End programuotojas</h2>
                     <p>2022 - 2024</p>
@@ -179,7 +179,7 @@
   <section id="portfolio" class="portfolio">
     <div class="col-lg-12">
         <div class="section-title">
-            <h1>Atliktų Darbų Skiltis</h1>
+            <h4>Atliktų Darbų Skiltis</h4>
             <p>Peržiūrėkite keletą mano atliktų projektų</p>
         </div>
         <!-- Atlikti darbai -->
@@ -228,7 +228,7 @@
     <section id="services" class="services">
       <div class="container">
           <div class="section-title">
-                <h1>Paslaugos</h1>
+                <h4>Paslaugos</h4>
                 <p>Peržiūrėkite mano siūlomas paslaugas ir pavyzdžius</p>
           </div>
           <div class="row">
@@ -264,7 +264,7 @@
   </section>
   <!-- /Paslaugų skiltis -->
    <section>
-    <h1> Math section:</h1>
+    <h4> Math section:</h4>
     <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
       <mi>f</mi>
       <mo stretchy="false">(</mo>
@@ -298,13 +298,54 @@
     </math> 
   </section>
   <section>
-      <h1>Laikrodis:</h1>
+      <h4>Laikrodis:</h4>
       <!-- Clock Container -->
       <div class="clock-container">
-        <h1 id="clock">00:00:00</h1>
+        <h4 id="clock">00:00:00</h4>
       </div>
-      <!-- Link to JavaScript File -->
-      <script src="scripts.js"></script>
+      <!-- javascript -->
+      <script src="assets/js/functions.js"></script>
+  </section>
+  <section>
+    <h4>Kontaktų Forma</h4>
+    <form id="contactForm">
+        <label for="firstName">Vardas:</label>
+        <input type="text" id="firstName" required>
+
+        <label for="lastName">Pavardė:</label>
+        <input type="text" id="lastName" required>
+
+        <label for="email">El. Pašto Adresas:</label>
+        <input type="email" id="email" required>
+
+        <label for="phone">Telefono Numeris:</label>
+        <input type="tel" id="phone" required>
+
+        <label for="address">Adresas:</label>
+        <input type="text" id="address" required>
+
+        <label for="score1">Pažymis 1:</label>
+        <input type="number" id="score1" required>
+
+        <label for="score2">Pažymis 2:</label>
+        <input type="number" id="score2" required>
+
+        <label for="score3">Pažymis 3:</label>
+        <input type="number" id="score3" required>
+
+        <label for="score4">Pažymis 4:</label>
+        <input type="number" id="score4" required>
+
+        <label for="score5">Pažymis 5:</label>
+        <input type="number" id="score5" required>
+
+        <button type="button" id="submitButton">Pateikti</button>
+    </form>
+
+    <h2>Rezultatai:</h2>
+    <div id="result"></div>
+  <!-- Rezultatai -->
+  <script src="assets/js/script_info.js"></script>
   </section>
 </main>
 
@@ -334,7 +375,7 @@
   <div id="preloader"></div>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/script_info.js"></script>
   
 </body>
 </html>
