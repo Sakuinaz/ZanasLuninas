@@ -24,6 +24,15 @@
 
   <!-- Styles CSS File -->
   <link href="assets/css/styles.css" rel="stylesheet">
+  <!-- Script MathJax Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js" integrity="sha512-jqedEdbReIXRCDxuFA8Wq5NvoBMpCejoxBIFP93aDn+nTgfPhfLLfAcIEkxLSWmL8+Sm6MxW2pdeDpsUq68HLg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'] }
+    };
+  </script>
+  
 </head>
 
 <body class="index-page">
@@ -201,6 +210,8 @@
             </div>
         </div>
     </div>
+    <div>
+    </div>
   </section>
   <!-- Atliktų darbų skiltis sukurtas -->
 
@@ -243,6 +254,40 @@
       </div>
   </section>
   <!-- /Paslaugų skiltis -->
+   <section>
+    <h1> Math section:</h1>
+    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+      <mi>f</mi>
+      <mo stretchy="false">(</mo>
+      <mi>a</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <mn>2</mn>
+          <mi>&#x3c0;</mi>
+          <mi>i</mi>
+        </mrow>
+      </mfrac>
+      <mo>&#x222e;</mo>
+      <mfrac>
+        <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>z</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mrow>
+          <mi>z</mi>
+          <mo>&#x2212;</mo>
+          <mi>a</mi>
+        </mrow>
+      </mfrac>
+      <mi>d</mi>
+      <mi>z</mi>
+    </math>
+   </section>
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
