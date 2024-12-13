@@ -25,14 +25,6 @@
 
   <!-- Styles CSS File -->
   <link href="assets/css/styles.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -40,15 +32,15 @@
    <button id="toggle-theme">Šviesus/Tamsus režimas</button>
 
    <!-- JavaScript file -->
-   <script src="assets\js\functions.js"></script>
+   <script src="assets/js/functions.js"></script>
 
   <!-- Mygtukas sviesus arba tamsus reziams -->
   
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <div class="profile-img">
-      <img src="img/about/Zans.jpg" alt="" class="img-fluid rounded-circle">
+    <div class="">
+      <img src="img/about/Zans.jpg" alt="logo" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -58,11 +50,11 @@
     </a>
 
     <div class="social-links text-center">
-      <button href="#" class="twitter"><i class="bi bi-twitter-x"></i></button>
-      <button href="#" class="facebook"><i class="bi bi-facebook"></i></button>
-      <button href="#" class="instagram"><i class="bi bi-instagram"></i></button>
-      <button href="#" class="google-plus"><i class="bi bi-skype"></i></button>
-      <button href="#" class="linkedin"><i class="bi bi-linkedin"></i></button>
+      <button class="twitter"><i class="bi bi-twitter-x"></i></button>
+      <button class="facebook"><i class="bi bi-facebook"></i></button>
+      <button class="instagram"><i class="bi bi-instagram"></i></button>
+      <button class="google-plus"><i class="bi bi-skype"></i></button>
+      <button class="linkedin"><i class="bi bi-linkedin"></i></button>
     </div>
 
     <nav id="navmenu" class="navmenu">
@@ -82,11 +74,11 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="img/Title/neco_02.png" alt="" data-aos="fade-in" class="">
+      <img src="img/Title/neco_02.png" alt="" class="">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos-delay="100">
         <h2>Žanas Luninas</h2>
-        <p>Aš esu <span class="typed" data-typed-items="Developer'is, Gamer'is, Gymrat'as, Racist'as">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <h1>Aš esu <span class="typed" data-typed-items="Developer'is, Gamer'is, Gymrat'as, Racist'as">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></h1>
       </div>
 
     </section><!-- /Hero Section -->
@@ -107,12 +99,12 @@
                   <p class="fst-italic">
                       Esu programuotojas, turintis labaaaaaaaaaaai daug patirties interneto svetainių kūrime.
                   </p>
-                  <p>
+                    <ul>
                       <li><i class="bi bi-chevron-right"></i> <strong>Vardas:</strong> Žanas</li>
                       <li><i class="bi bi-chevron-right"></i> <strong>Amžius:</strong> 20</li>
                       <li><i class="bi bi-chevron-right"></i> <strong>El. paštas:</strong> zanasluninas@gmail.com</li>
                       <li><i class="bi bi-chevron-right"></i> <strong>Vieta:</strong> Vilnius</li>
-                  </p>
+                    </ul>
                   <p>
                       Mano tikslas – kurti aukštos kokybės interneto svetaines, kurios atitinka klientų reikalavimus.
                   </p>
@@ -224,7 +216,7 @@
               <div class="col-lg-6">
                     <h2>Vaizdo įrašas</h2>
                     <!-- Video -->
-                    <video controls width="100%">
+                    <video controls width="500" height="280" >
                         <source src="video/video_01.mp4" type="video/mp4">
                         Jūsų naršyklė nepalaiko vaizdo įrašo formato.
                   </video>
@@ -232,10 +224,9 @@
               <div class="col-lg-6">
                     <h2>YouTube Įrašas</h2>
                     <!-- YouTube -->
-                    <iframe width="100%" height="315" 
+                    <iframe width="500" height="280" 
                         src="https://www.youtube.com/embed/77L5VbBO6tw" 
                         title="YouTube video" 
-                        frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
                     </iframe>
@@ -253,23 +244,24 @@
       </div>
   </section>
   <!-- /Paslaugų skiltis -->
-
   </main>
+
   <footer id="footer" class="footer position-relative light-background">
 
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    <div class="not">
+      <div class="not">
+        <a>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></a>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <div class="contact-info">
+            <a>Kontaktai: zanasluninas@gmail.com | Tel: +370 657 72051</a>
+            <a>© Puslapio kūrėjas: Žanas Luninas</a>
+          </div>
+          </div>
       </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
@@ -280,7 +272,6 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
-
+  
 </body>
 </html>
