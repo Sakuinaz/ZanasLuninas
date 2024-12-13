@@ -366,3 +366,11 @@ div {
     margin: 0;
     font-weight: 700;
   }
+  
+  /* SVG objetai */
+
+  .svg-container {
+    text-align: center; /* Center the SVG */
+    margin-top: 20px;
+  }
+  
